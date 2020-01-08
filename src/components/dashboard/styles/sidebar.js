@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const SidebarContainer = styled.div `
-  height: 92vh;
+ 
   width: 260px;
   background-color: #fff;
   color: #647787;
-  
   box-shadow: 0px 2px 10px rgba(79, 79, 79, 0.07);
   @media (max-width: 375px) {
    display: none;
@@ -17,8 +16,9 @@ export const SidebarMenu = styled.ul `
         align-items: center;
         flex-direction: column;
         list-style: none;
-        width: 100%;
+        width: calc(100% - 30px);
         padding: 0px 30px;
+        
         margin: 0;
       
 `;
@@ -40,6 +40,7 @@ display: flex;
 
 export const SidebarButton = styled.button `
 border-radius: 30px;
+margin-right: 30px;
 text-align: center;
 padding: 10px;
 outline: none;

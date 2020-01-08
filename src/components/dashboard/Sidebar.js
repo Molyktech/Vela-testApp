@@ -22,9 +22,8 @@ export const Sidebar = () => {
     <div>
       <SidebarContainer>
         <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarButton>generate Invoice</SidebarButton>
-          </SidebarMenuItem>
+          <SidebarButton>generate Invoice</SidebarButton>
+
           <SidebarMenuItem>Main</SidebarMenuItem>
           <SidebarMenuItem>
             <Icon src={vector} />
