@@ -8,7 +8,7 @@ import { Table } from '../table/Table';
 
 export const Main = () => {
   return (
-    <div style={{ background: '#e5e5e5' }}>
+    <div style={{ background: '#f7f8fa' }}>
       <Card />
 
       <GraphCardWrapper>

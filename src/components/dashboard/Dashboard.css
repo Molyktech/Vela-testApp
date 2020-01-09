@@ -7,13 +7,12 @@
         "nav main"; */
   grid-template-columns: 260px 1fr;
   grid-template-rows: 72px 1fr;
-  grid-template-areas: 'head head head head''sidebar main main main''sidebar main main main''sidebar main main main';
+  grid-template-areas: 'head head head head' 'sidebar main main main' 'sidebar main main main' 'sidebar main main main';
   height: 100vh;
 }
 
 .grid-sidebar {
   grid-area: sidebar;
-
 }
 
 .header {
@@ -23,14 +22,14 @@
 
 .content {
   grid-area: main;
-  background: #E5E5E5;
+  background: #f7f8fa;
 }
 
 @media screen and (max-width: 375px) {
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr;
-    grid-template-areas: 'head''main';
+    grid-template-areas: 'head' 'main';
   }
 }
 
@@ -78,12 +77,11 @@ input:-moz-placeholder {
   border: 0 !important;
   color: #09b0f1 !important;
   height: 42px;
-
 }
 
 .select-wide {
   width: 190px !important;
-
+  outline: none;
 }
 
 .form-texts {

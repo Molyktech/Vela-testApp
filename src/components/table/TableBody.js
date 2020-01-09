@@ -8,10 +8,12 @@ import {
   ItemType,
   ItemTypeText,
   Button,
-  Ball
+  Ball,
+  Group2
 } from '../dashboard/styles/table';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactPaginate from 'react-paginate';
 
 export const TableBody = () => {
   return (
@@ -232,6 +234,28 @@ export const TableBody = () => {
           </TableBodyRow>
         </tbody>
       </Table>
+      <Group2>
+        <p>Showing 1 to 10 of 500 entries</p>
+        <ReactPaginate
+          previousLabel={'Previous'}
+          nextLabel={'Next'}
+          breakLabel={<span className='gap'>...</span>}
+          activePage={1}
+          pageCount={2}
+          marginPagesDisplayed={2}
+          pageRangeDisplayed={5}
+          breakClassName={'page-item'}
+          breakLinkClassName={'page-link'}
+          containerClassName={'pagination'}
+          pageClassName={'page-item'}
+          pageLinkClassName={'page-link'}
+          previousClassName={'page-item'}
+          previousLinkClassName={'page-link'}
+          nextClassName={'page-item'}
+          nextLinkClassName={'page-link'}
+          activeClassName={'active'}
+        />
+      </Group2>
     </div>
   );
 };

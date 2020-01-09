@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const NavbarWrapper = styled.header `
+export const NavbarWrapper = styled.header`
   display: flex;
   flex-basis: 100%;
   height: 70px;
@@ -11,12 +11,12 @@ export const NavbarWrapper = styled.header `
   font-size: 16px;
 `;
 
-export const NavCont = styled.div `
+export const NavCont = styled.div`
   margin: 0 20px;
   display: flex;
 `;
 
-export const Navbrand = styled.a `
+export const Navbrand = styled.a`
   display: flex;
   flex: 0 0 250px;
   justify-content: center;
@@ -29,26 +29,29 @@ export const Navbrand = styled.a `
   text-align: center;
 `;
 
-export const NavbrandText = styled.h3 ``;
+export const NavbrandText = styled.h3`
+  color: #1875f0;
+  font-weight: bolder;
+`;
 
-export const NavItemContainer = styled.div `
+export const NavItemContainer = styled.div`
   display: flex;
 
   justify-content: space-between;
   align-items: center;
   padding: 0;
 `;
-export const NavMenu = styled.ul `
+export const NavMenu = styled.ul`
   display: flex;
 `;
 
-export const NavMenuItem = styled.li `
+export const NavMenuItem = styled.li`
   list-style-type: none;
   margin: 5px 15px;
   line-height: 15px;
 `;
 
-export const NavInput = styled.input `
+export const NavInput = styled.input`
   width: 300px;
   border: none;
 
@@ -60,13 +63,13 @@ export const NavInput = styled.input `
   }
 `;
 
-export const NavImg = styled.img `
+export const NavImg = styled.img`
   border-radius: 50%;
   width: 30px;
   height: 30px;
 `;
 
-export const Badge = styled.span `
+export const Badge = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
