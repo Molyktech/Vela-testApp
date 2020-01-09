@@ -71,3 +71,21 @@ input:-moz-placeholder {
   color: white;
   border: 1px solid blue;
 }
+
+.select-input {
+  width: 80px !important;
+  background: none !important;
+  border: 0 !important;
+  color: #09b0f1 !important;
+  height: 42px;
+
+}
+
+.select-wide {
+  width: 190px !important;
+
+}
+
+.form-texts {
+  margin-top: 10px;
+}

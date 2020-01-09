@@ -88,6 +88,7 @@ export const GraphCardWrapper = styled.div `
 display:flex;
 padding: 20px;
 height: 505px;
+margin: 0 0 0 40px;
 `;
 
 export const StackedCardWrapper = styled.div `

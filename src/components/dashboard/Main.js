@@ -4,6 +4,7 @@ import GraphCard from '../cards/GraphCard';
 import { GraphCardWrapper, StackedCardWrapper } from './styles/card';
 import { OrdersCardList } from '../cards/OrdersCardList';
 import { OrdersCard } from '../cards/OrdersCard';
+import { Table } from '../table/Table';
 
 export const Main = () => {
   return (
@@ -17,6 +18,7 @@ export const Main = () => {
           <OrdersCard />
         </StackedCardWrapper>
       </GraphCardWrapper>
+      <Table />
     </div>
   );
 };
