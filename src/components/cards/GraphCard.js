@@ -81,7 +81,7 @@ export default class GraphCard extends PureComponent {
           </GraphInputWrapper>
         </GraphHeader>
         <ComposedChart
-          width={910}
+          width={790}
           height={400}
           data={data}
           margin={{
