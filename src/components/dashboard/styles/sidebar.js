@@ -16,9 +16,8 @@ export const SidebarMenu = styled.ul `
         align-items: center;
         flex-direction: column;
         list-style: none;
-        width: calc(100% - 30px);
-        padding: 0px 30px;
-        
+        width: 100%;
+        padding: 0px 15px;
         margin: 0;
       
 `;
@@ -28,7 +27,7 @@ display: flex;
         height: 40px;
         width: 100%;
         align-items: center;
-        padding-left: 30px;
+        padding-left: 15px;
         margin: 25px 0 0 0;
         &:hover {
             background: rgba(24,117,240,0.1);
@@ -40,7 +39,6 @@ display: flex;
 
 export const SidebarButton = styled.button `
 border-radius: 30px;
-margin-right: 30px;
 text-align: center;
 padding: 10px;
 outline: none;
@@ -49,7 +47,7 @@ margin: 20px 0;
 text-transform: uppercase;
 background: #27AE60;
 color: #fff;
-width: 170px;
+width: 180px;
 `;
 
 export const Icon = styled.img `
@@ -67,4 +65,5 @@ export const SidebarMenuItemLabel = styled.p `
         padding: 12px 0px;
         color: #647787;
         margin-left: 20px;
+        margin-top: 10px
 `;
